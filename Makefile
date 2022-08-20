@@ -3,7 +3,8 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 format:
-	#install
+	#format
+	black *.py mylib/*.py
 lint:
 	#lint
 test:
